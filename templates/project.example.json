@@ -1,0 +1,25 @@
+{
+  "project": "MEU PRODUTO",
+  "brand": {
+    "initials": "MP",
+    "name": "Meu Produto",
+    "tagline": "Slogan curto da marca",
+    "site": "meusite.com"
+  },
+  "palette": {
+    "brand": "#E8552D",
+    "dark": "#141010",
+    "cream": "#FFF6EE",
+    "muted": "#C9BFB4",
+    "green": "#2FBF71",
+    "line": "#332B24",
+    "fade_color": "0x141010"
+  },
+  "fonts": { "anton": "Anton.ttf", "archivo": "ArchivoBlack.ttf", "inter": "Inter.ttf" },
+  "render": { "fps": 30, "fade": 0.35, "zoom": 0.05, "still_vw": 2560, "still_vh": 1440 },
+  "outputs": { "dir": "/caminho/absoluto/download/videos-<conjunto>", "prefix": "showcase" },
+  "captures": {
+    "app":   { "device": "phone",   "viewport": [390, 844],  "base_url": "http://localhost:3000/" },
+    "painel":{ "device": "browser", "viewport": [1440, 900], "base_url": "http://localhost:3000/painel" }
+  }
+}

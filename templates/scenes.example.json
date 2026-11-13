@@ -1,0 +1,57 @@
+{
+  "_meta": { "label": "TUTORIAL · PAINEL — PEDIDOS", "type": "tutorial" },
+  "scenes": [
+    {
+      "id": "abertura",
+      "kind": "intro",
+      "dur": 4.0,
+      "kicker": "TUTORIAL · PAINEL — PEDIDOS",
+      "title": "Aceite pedidos<br>sem <em>atraso</em>",
+      "desc": "Fila, detalhe, aceite e histórico — tudo o que você precisa em 40 segundos.",
+      "device": "browser",
+      "img": "tut-pedidos-capa.png",
+      "side": "right",
+      "chips": ["Módulo 2 de 9", "Duração: 40s"]
+    },
+    {
+      "id": "p01",
+      "kind": "feature",
+      "dur": 4.5,
+      "device": "browser",
+      "img": "tut-pedidos-p01.png",
+      "side": "left",
+      "counter": "01/08",
+      "url": "pedidos",
+      "bignum": "P01",
+      "kicker": "PASSO 1 · ABRIR O MÓDULO",
+      "title": "Abra <em>Pedidos</em> no menu lateral",
+      "desc": "A fila do dia aparece por status: novos, em preparo, a caminho e entregues.",
+      "chips": ["Fila por status", "Busca instantânea"]
+    },
+    {
+      "id": "p02",
+      "kind": "feature",
+      "dur": 4.5,
+      "device": "browser",
+      "img": "tut-pedidos-p02.png",
+      "side": "right",
+      "counter": "02/08",
+      "url": "pedidos/#1024",
+      "bignum": "P02",
+      "kicker": "PASSO 2 · ABRIR O DETALHE",
+      "title": "Clique no pedido<br>para ver o <em>detalhe</em>",
+      "desc": "Itens, pagamento, endereço e total do pedido #1024 em uma única tela.",
+      "chips": ["Itens e observações", "Total transparente"]
+    },
+    {
+      "id": "encerramento",
+      "kind": "outro",
+      "dur": 5.0,
+      "kicker": "AGORA É COM VOCÊ",
+      "title": "Pronto!<br>Você domina <em>Pedidos</em>",
+      "chips": ["Próximo: Cozinha (KDS)"],
+      "cta": "Praticar no painel",
+      "note": "No próximo vídeo: como mover o pedido pela cozinha até ficar pronto."
+    }
+  ]
+}
